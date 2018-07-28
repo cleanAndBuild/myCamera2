@@ -12,6 +12,11 @@
 		1CA30751210C4B3B00033AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3074F210C4B3B00033AB8 /* Main.storyboard */; };
 		1CA30753210C4B3D00033AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA30752210C4B3D00033AB8 /* Assets.xcassets */; };
 		1CA30756210C4B3D00033AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA30754210C4B3D00033AB8 /* LaunchScreen.storyboard */; };
+		1CA30761210C62B800033AB8 /* cameraUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3075D210C62B700033AB8 /* cameraUtility.swift */; };
+		1CA30762210C62B800033AB8 /* nora_tate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3075E210C62B700033AB8 /* nora_tate.png */; };
+		1CA30763210C62B800033AB8 /* bora_tate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3075F210C62B800033AB8 /* bora_tate.png */; };
+		1CA30764210C62B800033AB8 /* cameraButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA30760210C62B800033AB8 /* cameraButton@2x.png */; };
+		1CA30766210C737400033AB8 /* launchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA30765210C737400033AB8 /* launchIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1CA30752210C4B3D00033AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA30755210C4B3D00033AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA30757210C4B3D00033AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA3075D210C62B700033AB8 /* cameraUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraUtility.swift; sourceTree = "<group>"; };
+		1CA3075E210C62B700033AB8 /* nora_tate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nora_tate.png; sourceTree = "<group>"; };
+		1CA3075F210C62B800033AB8 /* bora_tate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bora_tate.png; sourceTree = "<group>"; };
+		1CA30760210C62B800033AB8 /* cameraButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraButton@2x.png"; sourceTree = "<group>"; };
+		1CA30765210C737400033AB8 /* launchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				1CA3074F210C4B3B00033AB8 /* Main.storyboard */,
 				1CA30752210C4B3D00033AB8 /* Assets.xcassets */,
 				1CA30754210C4B3D00033AB8 /* LaunchScreen.storyboard */,
+				1CA30765210C737400033AB8 /* launchIcon.png */,
 				1CA30757210C4B3D00033AB8 /* Info.plist */,
+				1CA3075F210C62B800033AB8 /* bora_tate.png */,
+				1CA30760210C62B800033AB8 /* cameraButton@2x.png */,
+				1CA3075D210C62B700033AB8 /* cameraUtility.swift */,
+				1CA3075E210C62B700033AB8 /* nora_tate.png */,
 			);
 			path = myCamera;
 			sourceTree = "<group>";
@@ -123,6 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA30756210C4B3D00033AB8 /* LaunchScreen.storyboard in Resources */,
+				1CA30762210C62B800033AB8 /* nora_tate.png in Resources */,
+				1CA30763210C62B800033AB8 /* bora_tate.png in Resources */,
+				1CA30766210C737400033AB8 /* launchIcon.png in Resources */,
+				1CA30764210C62B800033AB8 /* cameraButton@2x.png in Resources */,
 				1CA30753210C4B3D00033AB8 /* Assets.xcassets in Resources */,
 				1CA30751210C4B3B00033AB8 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +156,7 @@
 			files = (
 				1CA3074E210C4B3B00033AB8 /* ViewController.swift in Sources */,
 				1CA3074C210C4B3B00033AB8 /* AppDelegate.swift in Sources */,
+				1CA30761210C62B800033AB8 /* cameraUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
