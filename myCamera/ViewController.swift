@@ -62,7 +62,7 @@ class ViewController: UIViewController,AVCapturePhotoCaptureDelegate {
                 let image = UIImage(data: photoData)
                 
                 //合成するオーバーレイを読み込む
-                let boraImage = UIImage(named: "bora_tate.png")
+                let boraImage = UIImage(named: "nora_tate.png")
                 
                 //合成ファンクションを呼ぶ
                 if let image = image , let boraImage = boraImage {
