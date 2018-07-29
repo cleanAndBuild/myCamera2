@@ -60,10 +60,17 @@ class ViewController: UIViewController,AVCapturePhotoCaptureDelegate {
             //UImageに変換
             if let photoData = photoData {
                 let image = UIImage(data: photoData)
-                if let image = image {
-                    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-                }
                 
+                //合成するオーバーレイを読み込む
+                let boraImage = UIImage(named: "bora_tate.png")
+                
+                //合成ファンクションを呼ぶ
+                if let image = image , let boraImage = boraImage {
+                    let mergeImage = cameraUtility.mergeImage(image,boraImage)
+                    
+                    //margeImageをフォトアルバムに保存する
+                    UIImageWriteToSavedPhotosAlbum(mergeImage, nil, nil, nil)
+                }
             }
         }
     }
